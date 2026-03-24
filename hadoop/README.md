@@ -1,6 +1,6 @@
 📘 Module 1: Hadoop
 📊 Hadoop Architecture
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Hadoop_Architecture.svg" width="600"/> </p>
+
 1️⃣ What is Hadoop
 
 Answer:
