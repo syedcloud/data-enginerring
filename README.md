@@ -62,7 +62,8 @@ Some employees do not have salary records.
 | 2  | Smith | 500    |
 | 3  | Hall  | 0      |
 
-
+Solution :-
+PySpark -  https://github.com/syedcloud/data-enginerring/blob/main/pyspark/Scenario/Scenario-1-16-03-26.py
 
 ### 🔥 Interview Follow-up Questions
 
