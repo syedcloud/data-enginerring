@@ -66,6 +66,9 @@ The slower task is killed
 
 
 7️⃣ What is High Availability and Federation in Hadoop
+
+
+
 🔹 High Availability (HA)
 Ensures cluster is always available
 Uses Active + Standby NameNodes
