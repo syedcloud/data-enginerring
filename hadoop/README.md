@@ -1,6 +1,6 @@
 📘 Module 1: Hadoop
-📊 Hadoop Architecture Diagram
-
+📊 Hadoop Architecture
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Hadoop_Architecture.svg" width="600"/> </p>
 1️⃣ What is Hadoop
 
 Answer:
@@ -14,25 +14,26 @@ Highly durable and scalable
 Answer:
 Hadoop architecture consists of:
 
-NameNode
-Standby NameNode
-DataNodes
-JournalNodes
-ZooKeeper
+🟡 NameNode
+🟡 Standby NameNode
+🟡 DataNodes
+🟡 JournalNodes
+🟡 ZooKeeper
 3️⃣ What is Block Size in Hadoop HDFS
 
 Answer:
 
-Hadoop 1.0 → 64 MB
-Hadoop 2.0 → 128 MB (default)
+Hadoop Version	Block Size
+Hadoop 1.0	64 MB
+Hadoop 2.0+	128 MB (default)
 4️⃣ What is Fault Tolerance in Hadoop
 
 Answer:
 Hadoop ensures fault tolerance using:
 
-Data Replication
-Task Resubmission
-High Availability
+✅ Data Replication
+✅ Task Resubmission
+✅ High Availability
 5️⃣ What is Split Brain Scenario in Hadoop
 
 Answer:
@@ -40,8 +41,8 @@ Split-brain occurs when both Active and Standby NameNodes become active simultan
 
 Prevention:
 
-ZooKeeper
-Fencing mechanisms
+🔹 ZooKeeper
+🔹 Fencing mechanisms
 6️⃣ What is Speculative Execution in Hadoop
 
 Answer:
@@ -59,3 +60,10 @@ Automatic failover
 Multiple NameNodes in a cluster
 Each manages a separate namespace
 Improves scalability and performance
+🚀 Quick Summary
+Feature	Description
+Storage	HDFS
+Processing	MapReduce
+Fault Tolerance	Replication + HA
+Scalability	Horizontal
+Performance	Parallel Processing
