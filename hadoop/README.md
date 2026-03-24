@@ -80,10 +80,4 @@ Automatic failover
 Multiple NameNodes in a cluster
 Each manages a separate namespace
 Improves scalability and performance
-🚀 Quick Summary
-Feature	Description
-Storage	HDFS
-Processing	MapReduce
-Fault Tolerance	Replication + HA
-Scalability	Horizontal
-Performance	Parallel Processing
+
