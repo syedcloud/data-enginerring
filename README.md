@@ -8,6 +8,8 @@
 | No | Scenarios                   |
 | -- | --------------------------- |
 | 1  | [Scenario-1](#scenario-1)   |
+| 2  | [Scenario-1](#scenario-2)   |
+
 
 
 ---
@@ -31,7 +33,7 @@ Some employees do not have salary records.
 * Perform a **left join**
 * Replace missing salaries (`NULL`) with **0**
 
----
+
 
 ### 📊 Input Data
 
@@ -51,7 +53,7 @@ Some employees do not have salary records.
 | 2  | 500    |
 | 4  | 1000   |
 
----
+
 ### ✅ Output
 
 | id | name  | salary |
@@ -60,7 +62,7 @@ Some employees do not have salary records.
 | 2  | Smith | 500    |
 | 3  | Hall  | 0      |
 
----
+
 
 ### 🔥 Interview Follow-up Questions
 
@@ -70,13 +72,66 @@ Some employees do not have salary records.
 4. What happens if there are **duplicate IDs**?
 
 ---
-
-
----
-
 ## Scenario-2
+👉 
 
-👉 Add your content here
+### ❓ Problem Statement
+
+You are given match results between teams:
+
+* `TeamA` vs `TeamB`
+* Column `Won` indicates the winning team
+
+👉 Requirement:
+
+* Find **total wins for each team**
+* Include teams with **zero wins**
+* Sort results by team name
+
+
+
+### 📊 Input Data
+
+| TeamA | TeamB | Won |
+| ----- | ----- | --- |
+| A     | D     | D   |
+| B     | A     | A   |
+| A     | D     | A   |
+
+
+### ✅ Output
+
+| TeamName | won |
+| -------- | --- |
+| A        | 2   |
+| B        | 0   |
+| D        | 1   |
+
+
+
+### 🔥 Interview Follow-up Questions
+
+1. Why do we use **UNION + DISTINCT** here?
+2. What happens if we use **INNER JOIN instead of LEFT JOIN**?
+3. Can we solve this using **window functions**?
+4. How would you calculate **losses** or **win percentage**?
+
+
+
+
+
+
+
+### 🎯 Key Concepts Tested
+
+* Aggregations in Spark
+* UNION and DISTINCT
+* LEFT JOIN
+* NULL handling (`fillna`)
+* Data transformation logic
+
+
+
 
 ---
 
