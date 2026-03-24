@@ -73,6 +73,9 @@ The slower task is killed
 Ensures cluster is always available
 Uses Active + Standby NameNodes
 Automatic failover
+
+
+
 🔹 Federation
 Multiple NameNodes in a cluster
 Each manages a separate namespace
