@@ -9,7 +9,7 @@
 | -- | --------------------------- |
 | 1  | [Scenario-1](#scenario-1)   |
 | 2  | [Scenario-2](#scenario-2)   |
-| 2  | [Scenario-3](#scenario-3)   |
+| 3  | [Scenario-3](#scenario-3)   |
 
 
 
