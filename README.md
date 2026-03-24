@@ -74,12 +74,12 @@ PySpark - PySpark - https://github.com/syedcloud/data-enginerring/blob/main/pysp
 4. What happens if there are **duplicate IDs**?
 
 🎯 Key Concepts Tested
-Joins in Spark (Left Join)
-Handling NULL values
-Conditional transformations using CASE WHEN
-DataFrame operations
-Column transformation using withColumn
-Alternative NULL handling using fillna
+* Joins in Spark (Left Join)
+* Handling NULL values
+* Conditional transformations using CASE WHEN
+* DataFrame operations
+* Column transformation using withColumn
+* Alternative NULL handling using fillna
 ---
 ## Scenario-2
 👉 
