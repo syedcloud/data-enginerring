@@ -9,6 +9,7 @@
 | -- | --------------------------- |
 | 1  | [Scenario-1](#scenario-1)   |
 | 2  | [Scenario-2](#scenario-2)   |
+| 2  | [Scenario-3](#scenario-3)   |
 
 
 
@@ -141,68 +142,5 @@ PySpark -  https://github.com/syedcloud/data-enginerring/blob/main/pyspark/Scena
 
 👉 Add your content here
 
----
 
-## Scenario-4
 
-👉 Add your content here
-
----
-
-## Scenario-5
-
-👉 Add your content here
-
----
-
-## Scenario-6
-
-👉 Add your content here
-
----
-
-## Scenario-7
-
-👉 Add your content here
-
----
-
-## Scenario-8
-
-👉 Add your content here
-
----
-
-## Scenario-9
-
-👉 Add your content here
-
----
-
-## Scenario-10
-
-👉 Add your content here
-
----
-
-## Scenario-11
-
-👉 Add your content here
-
----
-
-## Scenario-12
-
-👉 Add your content here
-
----
-
-## Scenario-13
-
-👉 Add your content here
-
----
-
-## Scenario-14
-
-👉 Add your content here
