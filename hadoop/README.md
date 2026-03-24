@@ -1,4 +1,6 @@
 📘 Module 1: Hadoop
+
+
 1️⃣ What is Hadoop
 
 Ans:
@@ -7,6 +9,8 @@ Hadoop is a distributed framework which has distributed storage and distributed 
 It uses HDFS for distributed storage
 It uses MapReduce for distributed processing
 Hadoop is highly durable and easily scalable
+
+
 2️⃣ What are Hadoop Components
 
 Ans:
@@ -17,12 +21,15 @@ Standby NameNode
 DataNodes
 JournalNodes
 ZooKeeper
+
 3️⃣ What is Block Size in Hadoop HDFS
 
 Ans:
 
 Hadoop 2.0 → 128 MB (Default)
 Hadoop 1.0 → 64 MB
+
+
 4️⃣ What is Fault Tolerance in Hadoop
 
 Ans:
@@ -31,6 +38,8 @@ Hadoop handles this through three primary mechanisms:
 Data Replication
 Task Resubmission
 High Availability
+
+
 5️⃣ What is Split Brain Scenario in Hadoop
 
 Ans:
@@ -39,6 +48,7 @@ Split-brain in Hadoop occurs when both Active and Standby NameNodes become activ
 Prevented using:
 ZooKeeper
 Fencing mechanisms
+
 6️⃣ What is Speculative Execution in Hadoop
 
 Ans:
@@ -47,6 +57,8 @@ Speculative execution is a latency optimization technique in Hadoop that handles
 If a task is running slow, Hadoop launches the same task on another node
 The result from the task that finishes first is accepted
 The other task is killed
+
+
 7️⃣ What is High Availability and Federation in Hadoop
 
 Ans:
@@ -59,6 +71,8 @@ Ensures no downtime
 Federation:
 Uses multiple NameNodes for different data
 Improves scalability
+
+
 8️⃣ What is Rack Awareness in Hadoop
 
 Ans:
@@ -66,6 +80,8 @@ Rack awareness in Hadoop is the process of placing data across different racks w
 
 Ensures fault tolerance
 Reduces network traffic
+
+
 9️⃣ What is Small File Issues in Hadoop
 
 Ans:
@@ -74,6 +90,8 @@ The small file problem in Hadoop happens when many files smaller than the block 
 Solution:
 Merge small files using Hadoop Archive (HAR)
 Improves performance
+
+
 🔟 Explain Hadoop Architecture
 
 Ans:
