@@ -61,6 +61,8 @@ HDFS follows a Master-Slave architecture to store massive datasets across common
 NameNode (Master): The "Brain" of the file system. It manages the Metadata (file names, permissions, and which DataNode holds which block). It does not store the actual data.
 Secondary NameNode: (Crucial Point) It is not a backup for the NameNode. Its main job is to periodically merge the "Edit Logs" with the "FsImage" to keep the metadata lean and help the NameNode start up faster.
 DataNode (Slave): The "Muscle." These nodes store the actual Data Blocks. They perform read/write requests and send "heartbeats" to the NameNode to prove they are still alive.
+
+
 2) YARN (Yet Another Resource Negotiator) - The Operating System
 
 Introduced in Hadoop 2.0, YARN manages the cluster's resources (CPU and RAM) and schedules jobs.
@@ -68,6 +70,8 @@ Introduced in Hadoop 2.0, YARN manages the cluster's resources (CPU and RAM) and
 ResourceManager (Master): The ultimate authority. It knows how much RAM and CPU is available across the entire cluster and decides which jobs get those resources.
 NodeManager (Slave): Runs on every DataNode. It monitors the local resource usage (containers) and reports back to the ResourceManager.
 ApplicationMaster: A temporary "manager" created for each specific job. it negotiates resources from the ResourceManager and works with NodeManagers to execute tasks.
+
+
 3) MapReduce - The Processing Layer
 The Map Phase takes the data and breaks it down into key-value pairs (like counting words).
 The Shuffle& Sort Phase organizes and moves that data across the network to the right 'buckets.'
