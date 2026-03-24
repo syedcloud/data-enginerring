@@ -63,7 +63,7 @@ Some employees do not have salary records.
 | 3  | Hall  | 0      |
 
 Solution :-
-PySpark -  https://github.com/syedcloud/data-enginerring/blob/main/pyspark/Scenario/Scenario-1-16-03-26.py
+PySpark - https://github.com/syedcloud/data-enginerring/blob/main/pyspark/Scenario/Scenario-1-16-03-26.py](https://github.com/syedcloud/data-enginerring/blob/main/pyspark/Scenario/Scenario-2-17-03-26..py)
 
 ### 🔥 Interview Follow-up Questions
 
@@ -109,6 +109,7 @@ You are given match results between teams:
 | D        | 1   |
 
 
+Solution :- PySpark - https://github.com/syedcloud/data-enginerring/blob/main/pyspark/Scenario/Scenario-1-16-03-26.py
 
 ### 🔥 Interview Follow-up Questions
 
