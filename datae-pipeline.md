@@ -8,13 +8,13 @@ We need to isolate our raw data and analytics storage from the Python control fi
 
 3. Click into your newly created bucket and use the Create folder button to create these four folders:
 
-o  raw-data/
-
-o  scripts/
-
-O  processed-output/
-
-O  emr-logs/
+      o  raw-data/
+      
+      o  scripts/
+      
+      o  processed-output/
+      
+      o  emr-logs/
 
 4. Go back to the main S3 page, click Create bucket again, and provision your orchestration bucket: mwaa-airflow-orchestrator-bucket.
 
