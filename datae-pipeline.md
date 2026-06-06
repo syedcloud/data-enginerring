@@ -231,7 +231,7 @@ with DAG(
 3. Open your Amazon MWAA Dashboard, click the Open Airflow UI link.
 4. Locate ecommerce_daily_transform_pipeline, click the toggle on the left to Unpause, and click the Trigger (Play button) on the far right to run it.
 
-Phase 8: Output Verification via AWS CloudShell
+***Phase 8***: Output Verification via AWS CloudShell
 
  Now that your manually constructed architecture has successfully run through Airflow, let's execute your requested confirmation checkpoint using the terminal.
 
