@@ -267,6 +267,7 @@ product_category  total_revenue  processing_date
          Apparel          45.00       2026-06-05
 
 ```
+⚠️ CRITICAL WARNING: To prevent ongoing charges, you MUST manually log into your AWS Console right now and delete the EMR Serverless Application, the MWAA (Airflow) Environment, and both S3 Buckets. Leaving them active will continue to incur background costs on your AWS account.
 
 
 
